@@ -1,0 +1,92 @@
+/* doante and be a volunteer */
+.dv_box{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-wrap: nowrap;
+}
+.dv{
+    background: #dd8440;
+    width: 100%;
+    
+    margin: 10px;
+    border-radius: 15px;
+}
+.dv a{
+    background-color: #b32222;
+    color: white;
+    padding:15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 100px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.dv a:hover{
+    background-color:#722a2a;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.dv {
+    padding: 10px;
+    text-align: center;
+}
+@media(max-width:700px){
+    .dv{
+        width: 40%;
+ 
+}
+}
+/* ************************************************************************* */
+/* OUR MISSIONS */
+.mission{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.container_m {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.box_m {
+    width: calc(33.33% - 40px);
+    max-width: 300px;
+    flex-grow: 1;
+    padding: 20px;
+    margin: 20px;
+    background-color: #dd8440;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.box_m:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+    .box_m {
+        width: calc(50% - 40px);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box_m {
+        width: calc(100% - 40px);
+    }
+}
+
+#dropdownMenuButton1{
+   margin-right: 30px; 
+}
+.dropdown{
+    align-items: center;
+}

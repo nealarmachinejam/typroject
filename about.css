@@ -1,0 +1,32 @@
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dd8440;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    
+}
+
+/* Styling for the heading */
+.about b {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Styling for the paragraphs */
+.about p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Styling for the overall body */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}

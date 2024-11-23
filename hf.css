@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'poppins','sans-serif';
+    box-sizing: border-box;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color:black;
+    z-index: 100;
+    padding: 0 20px;
+}
+nav{
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px;
+    /* margin: 0 auto; */
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    max-width: 1100px;
+    width: 100%;
+ 
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}*/
+/* nav img{
+    width: 60px;
+    align-items:left;
+    height: 60px;
+} */
+.logo{
+    width:60px;
+}
+.user-pic{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+nav ul{
+    width: 100%;
+    text-align: center;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px ;
+
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+/* .nav-links{
+    flex: 1;
+    text-align: center;
+    padding-top: 10px;
+} */
+/* .nav-links ul{
+    align-items: center;
+} */
+/* .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    /* align-items: center; */
+    /* color: white;
+    text-decoration: none;
+    font-size: 15px;
+} */ 
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f6f6f6;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+nav ul li:hover::after{
+    width:100%;
+}
+
+/* *****************************login button css********************************* */
+.login-button {
+    background-color: #4CAF50;
+    color: rgb(16, 16, 16);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.login-button:hover {
+    background-color: #ffffff;
+    
+}
+/* ******************************************************************* */
+/* header css end */
+
+/* OUR MISSIONS */
+.mission{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.container_m {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.box_m {
+    width: calc(33.33% - 40px);
+    max-width: 300px;
+    flex-grow: 1;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.box_m:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+    .box_m {
+        width: calc(50% - 40px);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box_m {
+        width: calc(100% - 40px);
+    }
+}
+
+
+/* footer csss */
+footer{
+    background-color: black;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50px;
+
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+
+}
+.footerNav{
+    margin: 30px 0;
+
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media(max-width:700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+/* ****************************ABOUT**************************** */
+

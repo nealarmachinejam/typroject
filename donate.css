@@ -1,0 +1,371 @@
+
+.doca{
+    display: flex;
+    justify-content: center;
+    background-color: #565555;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.card{
+    background: white;
+    width: 100%;
+    
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image {
+    
+    height: 350px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.food{
+    background-image: url(img/food.jpeg);
+}
+.book{
+    background-image: url(img/book.jpeg);
+}
+.cloth{
+    background-image: url(img/cloth.jpeg);
+}
+/* .card a{
+    background-color: black;
+    color: white;
+    padding:15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 100px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.card a:hover{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+} */
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .card button {
+    background-color:  #e44b41;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 140px;
+    margin-bottom: 10px;
+  }
+  .card p{
+    text-align: center;
+  }
+  
+  .card button:hover {
+    background-color: #b32222;
+  }
+  form {
+    display: none;
+  }
+@media(max-width:700px){
+    .card{
+        width: 30%;
+ 
+}
+}
+
+/* *********************************************donation form ************************************************************************** */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 1000; /* Ensure the overlay is on top of other elements */
+}
+
+/* Modal content */
+.modal-content {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1001; /* Ensure the content is on top of the overlay */
+}
+
+
+.donation-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.donation-form h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.donation-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.donation-form input[type="text"],
+.donation-form input[type="number"],
+.donation-form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.donation-form input[type="submit"],
+.donation-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.donation-form input[type="submit"]:hover,
+.donation-form button:hover {
+    background-color: #45a049;
+}
+
+.donation-form button[type="button"] {
+    background-color: #f44336;
+}
+
+.donation-form button[type="button"]:hover {
+    background-color: #d32f2f;
+}
+
+/* Center the form on the page */
+.donation-forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    .donation-form {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
